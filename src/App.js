@@ -32,6 +32,10 @@ function AppContent() {
     return path || "about";
   };
 
+  // Check current page for different background patterns
+  const isProjectsPage = location.pathname === "/projects";
+  const isJourneyPage = location.pathname === "/journey";
+
   return (
     <div className="app">
       <div
@@ -61,7 +65,11 @@ function AppContent() {
         isOpen={sidebarOpen}
       />
 
-      <main className="main-container">
+      <main
+        className={`main-container ${isProjectsPage ? "bg-grid" : ""} ${
+          isJourneyPage ? "bg-dots" : ""
+        }`}
+      >
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />

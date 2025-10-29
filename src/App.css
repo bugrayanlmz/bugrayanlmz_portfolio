@@ -250,6 +250,22 @@
   color: #111827;
 }
 
+/* Background Patterns */
+.bg-grid {
+  background-color: white;
+  background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
+    linear-gradient(to bottom, #80808012 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: 0 0;
+}
+
+.bg-dots {
+  background-color: white;
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 16px 16px;
+  background-position: 0 0;
+}
+
 /* Scrollbar */
 .sidebar::-webkit-scrollbar {
   width: 6px;
@@ -1219,6 +1235,47 @@
     padding: 24px;
     margin-top: 60px;
     justify-content: flex-start;
+  }
+
+  /* Mobil tasarımda background pattern'lerinin tüm alanı kaplaması için */
+  .main-container.bg-grid,
+  .main-container.bg-dots {
+    position: relative;
+  }
+
+  /* Mobil tasarımda pattern'lerin üst kısımla senkronize olması için */
+  .main-container.bg-grid {
+    background-position: 0 -60px;
+  }
+
+  .main-container.bg-dots {
+    background-position: 0 -60px;
+  }
+
+  .main-container.bg-grid::before,
+  .main-container.bg-dots::before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: -1;
+  }
+
+  .main-container.bg-grid::before {
+    background-color: white;
+    background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
+      linear-gradient(to bottom, #80808012 1px, transparent 1px);
+    background-size: 24px 24px;
+    background-position: 0 0;
+  }
+
+  .main-container.bg-dots::before {
+    background-color: white;
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 16px 16px;
+    background-position: 0 0;
   }
 
   .main-content {

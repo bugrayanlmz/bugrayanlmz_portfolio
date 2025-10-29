@@ -4,10 +4,16 @@ import TimelineItem from "./TimelineItem";
 function Journey() {
   const timelineData = [
     {
+      date: "Jun 2025 - Jul 2025",
+      title: "IT Intern at Kocaer Steel",
+      description:
+        "I successfully completed my IT summer internship, where I observed a professional work environment and gained valuable experiences and friendships. It provided me with important steps for my future career.",
+    },
+    {
       date: "Jun 2024",
       title: "I quit at Kodland",
       description:
-        "I quit my job because there were projects I wanted to realize",
+        "I left my Python Tutor job, where I gained wonderful friendships and experiences, with the aim of advancing myself in the field I am passionate about.",
     },
     {
       date: "May 2023",

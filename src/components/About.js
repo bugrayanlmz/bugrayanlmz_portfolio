@@ -5,8 +5,8 @@ function About() {
     <div className="main-content active">
       <div className="intro">
         <h1>
-          Hi 👋 I'm Buğra. AI Solution Architect, AI and motorcycle lover based
-          in Izmir, Turkey.
+          Hi 👋 I'm Buğra. AI Learner and motorcycle lover based in Izmir,
+          Turkey.
         </h1>
         <p>
           I am studying Management Information Systems (EN) at Izmir Bakırçay

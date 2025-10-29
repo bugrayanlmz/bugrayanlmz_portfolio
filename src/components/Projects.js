@@ -4,13 +4,18 @@ import ProjectTimelineItem from "./ProjectTimelineItem";
 function Projects() {
   const projects = [
     {
-      title: "PETIOPIA",
+      title: "Invoice Data Extraction",
       description:
-        "A comprehensive pet care website I created with the help of AI for the final project of our web programming course. This platform provides pet owners with essential information and services for their beloved pets.",
-      image: "/images/petiopia.png",
-      techStack: ["HTML", "CSS", "JavaScript", "AI-Assisted"],
-      date: "2024",
-      demoUrl: "https://petiopia.netlify.app/",
+        "Inspired by Loadsure's use of Google Cloud Document AI to automate insurance claim processing, this project leverages Google Cloud Document AI and Python to extract structured data from uploaded invoice PDFs. Key fields such as invoice date, amount, tax rate, and supplier details were accurately identified and presented through visual outputs, including confidence score analysis, pie charts, and entity distribution graphs.",
+      image: "/images/proje1.png",
+      techStack: [
+        "Python",
+        "Google Cloud Document AI",
+        "Streamlit",
+        "Data Visualization",
+      ],
+      date: "2025",
+      demoUrl: "https://data-ai-invoice-9v6v2a994pq9pemlundvdd.streamlit.app/",
     },
   ];
 
