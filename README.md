@@ -137,8 +137,6 @@ Bu proje kişisel kullanım içindir.
 - **Email**: bugrayanlmz@gmail.com
 - **LinkedIn**: [bugrayanlmz](https://www.linkedin.com/in/bugrayanlmz/)
 - **GitHub**: [bugrayanlmz](https://github.com/bugrayanlmz)
-- **Twitter/X**: [@bugrayanlmz](https://x.com/bugrayanlmz)
-- **Instagram**: [@bugrayanlmz](https://www.instagram.com/bugrayanlmz/)
 
 ---
 
