@@ -22,10 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# old files
-index.html
-style.css
-script.js
-blog.css
-blog.js
+
+
 
