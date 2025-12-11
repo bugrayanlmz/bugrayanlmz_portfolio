@@ -1,22 +1,8 @@
-# Portfolio Website - React
+bugrayanlmz Portfolio Website
 
-Modern ve responsive bir portfolyo web sitesi. React ile geliştirilmiştir.
+bugrayanlmz.dev
 
-## 🚀 Özellikler
-
-- ✅ Modern ve temiz tasarım
-- ✅ Tam responsive (mobil uyumlu)
-- ✅ Sidebar navigasyon
-- ✅ Hakkımda sayfası
-- ✅ Journey (Zaman çizelgesi)
-- ✅ Projeler sayfası
-- ✅ 2025 Hedefler sayfası
-- ✅ Blog/Yazı yazma özelliği
-- ✅ Admin paneli (localhost'ta aktif)
-- ✅ localStorage ile veri saklama
-- ✅ Smooth animasyonlar
-
-## 📦 Kurulum
+## Kurulum
 
 Projeyi çalıştırmak için aşağıdaki adımları takip edin:
 
@@ -40,9 +26,7 @@ Uygulama [http://localhost:3000](http://localhost:3000) adresinde açılacaktır
 npm run build
 ```
 
-Build klasörüne optimize edilmiş dosyalar oluşturulacaktır.
-
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 ```
 portfolio-react/
@@ -69,75 +53,8 @@ portfolio-react/
 └── README.md
 ```
 
-## 🎨 Kullanılan Teknolojiler
-
-- **React 18** - UI kütüphanesi
-- **React Icons** - İkon kütüphanesi
-- **CSS3** - Styling ve animasyonlar
-- **localStorage** - Blog yazılarını saklama
-
-## 🔧 Özelleştirme
-
-### Kişisel Bilgileri Güncelleme
-
-`src/components/About.js` dosyasından kişisel bilgilerinizi güncelleyebilirsiniz.
-
-### Sosyal Medya Linkleri
-
-`src/components/Sidebar.js` dosyasındaki `socialLinks` array'ini düzenleyin.
-
-### Projeleri Ekleme
-
-`src/components/Projects.js` dosyasındaki `projects` array'ine yeni projeler ekleyebilirsiniz.
-
-### Hedefleri Değiştirme
-
-`src/components/Goals.js` dosyasındaki `goals` array'ini düzenleyin.
-
-## 📝 Blog Özelliği
-
-Blog özelliği sadece localhost'ta (geliştirme modunda) admin olarak çalışır. Production'da blog yazıları sadece okunabilir moddadır.
-
-Blog yazıları localStorage'da saklanır, bu nedenle:
-
-- Tarayıcı verilerini temizlerseniz yazılar silinir
-- Her tarayıcıda farklı yazılar görünebilir
-
-## 🌐 Deployment
-
-### Netlify ile Deploy
-
-1. GitHub'a push edin
-2. Netlify'da yeni site oluşturun
-3. Repository'nizi bağlayın
-4. Build command: `npm run build`
-5. Publish directory: `build`
-
-### Vercel ile Deploy
-
-```bash
-npm install -g vercel
-vercel
-```
-
-## 📱 Responsive Tasarım
-
-Site tüm cihazlarda düzgün çalışacak şekilde tasarlanmıştır:
-
-- 📱 Mobil cihazlar (< 768px)
-- 💻 Tablet ve laptop
-- 🖥️ Desktop
-
-## 📄 Lisans
-
-Bu proje kişisel kullanım içindir.
-
-## 👤 İletişim
+## İletişim
 
 - **Email**: bugrayanlmz@gmail.com
 - **LinkedIn**: [bugrayanlmz](https://www.linkedin.com/in/bugrayanlmz/)
 - **GitHub**: [bugrayanlmz](https://github.com/bugrayanlmz)
-
----
-
-Made with ❤️ by Buğra Yanılmaz
