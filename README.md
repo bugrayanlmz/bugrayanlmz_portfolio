@@ -1,6 +1,6 @@
 bugrayanlmz Portfolio Website
 
-[bugrayanlmz.dev](bugrayanlmz.dev)
+[bugrayanlmz.dev](https://bugrayanlmz.dev/)
 
 ## Installation
 
