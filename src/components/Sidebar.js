@@ -1,13 +1,13 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { FiHome, FiMap, FiLayers, FiArrowUpRight } from "react-icons/fi";
 import {
-  FaXTwitter,
-  FaInstagram,
-  FaLinkedin,
-  FaGithub,
-  FaYoutube,
-} from "react-icons/fa6";
+  FiHome,
+  FiMap,
+  FiLayers,
+  FiArrowUpRight,
+  FiNavigation,
+} from "react-icons/fi";
+import { FaXTwitter, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa6";
 
 function Sidebar({ activeSection, onSectionChange, isOpen }) {
   const navigate = useNavigate();
@@ -29,11 +29,11 @@ function Sidebar({ activeSection, onSectionChange, isOpen }) {
       path: "/journey",
     },
     {
-      id: "blog",
-      label: "Youtube",
-      icon: FaYoutube,
+      id: "trips",
+      label: "Trips",
+      icon: FiNavigation,
       number: "4",
-      path: "/blog",
+      path: "/trips",
     },
   ];
 

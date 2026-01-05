@@ -418,9 +418,8 @@
   left: 20px;
   top: 0;
   bottom: 0;
-  width: 2px;
-  background: #e0e0e0;
-  border-radius: 1px;
+  width: 0;
+  border-left: 1px dashed #e5e7eb;
 }
 
 .timeline-item {
@@ -432,14 +431,14 @@
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: -26px;
+  left: -28px;
   top: 20px;
-  width: 12px;
-  height: 12px;
+  width: 8px;
+  height: 8px;
   background: #3b82f6;
   border-radius: 50%;
   border: 4px solid #ffffff;
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+  outline: 1px solid #e5e7eb;
   z-index: 2;
 }
 
@@ -1187,29 +1186,98 @@
   animation: slideIn 0.3s ease-out;
 }
 
-/* Youtube Section */
-.youtube-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 60vh;
-  text-align: center;
+/* Trips Timeline Section */
+.trips-timeline-container {
+  position: relative;
+  padding-left: 0;
 }
 
-.youtube-header {
+.trips-timeline-item {
+  display: grid;
+  grid-template-columns: 100px 40px 1fr;
+  gap: 0;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.trips-timeline-item::before {
+  display: none;
+}
+
+.trips-timeline-item.connected::before {
+  content: "";
+  position: absolute;
+  left: 120px;
+  top: 0;
+  bottom: -60px;
+  width: 0;
+  border-left: 1px dashed #e5e7eb;
+  display: block;
+}
+
+.trips-timeline-year {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f2937;
+  padding-top: 2px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.trips-timeline-dot {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 6px;
+}
+
+.trips-timeline-dot::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #3b82f6;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  outline: 1px solid #e5e7eb;
+  z-index: 2;
+}
+
+.trips-timeline-content {
+  padding-left: 24px;
+  padding-right: 20px;
+}
+
+.trips-timeline-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0 0 12px 0;
+  line-height: 1.4;
+}
+
+.trips-timeline-description {
+  font-size: 15px;
+  color: #64748b;
+  line-height: 1.7;
+  margin: 0 0 20px 0;
   max-width: 600px;
 }
 
-.youtube-description {
-  font-size: 18px;
-  color: #6b7280;
-  line-height: 1.6;
-  margin: 0;
+.trips-timeline-image {
+  margin-top: 16px;
+  max-width: 900px;
+  display: inline-block;
+}
+
+.trips-timeline-image img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 950px;
+  display: block;
+  border-radius: 16px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Responsive */
@@ -1426,5 +1494,47 @@
     width: 100%;
     text-align: center;
     justify-content: center;
+  }
+
+  /* Trips Timeline Responsive */
+  .trips-timeline-item {
+    grid-template-columns: 60px 30px 1fr;
+    margin-bottom: 40px;
+  }
+
+  .trips-timeline-item::before {
+    left: 75px;
+  }
+
+  .trips-timeline-year {
+    font-size: 15px;
+    padding-right: 12px;
+  }
+
+  .trips-timeline-dot::before {
+    width: 10px;
+    height: 10px;
+  }
+
+  .trips-timeline-content {
+    padding-left: 16px;
+    padding-right: 0;
+  }
+
+  .trips-timeline-title {
+    font-size: 17px;
+  }
+
+  .trips-timeline-description {
+    font-size: 14px;
+  }
+
+  .trips-timeline-image {
+    border-radius: 12px;
+    max-width: 100%;
+  }
+
+  .trips-timeline-image img {
+    max-height: 350px;
   }
 }

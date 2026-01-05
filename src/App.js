@@ -9,7 +9,7 @@ import Sidebar from "./components/Sidebar";
 import About from "./components/About";
 import Journey from "./components/Journey";
 import Projects from "./components/Projects";
-import Blog from "./components/Blog";
+import Trips from "./components/Trips";
 import "./App.css";
 
 function AppContent() {
@@ -75,7 +75,7 @@ function AppContent() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/journey" element={<Journey />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/trips" element={<Trips />} />
         </Routes>
       </main>
     </div>
