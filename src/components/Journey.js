@@ -4,6 +4,12 @@ import TimelineItem from "./TimelineItem";
 function Journey() {
   const timelineData = [
     {
+      date: "Feb 2026 - Present",
+      title: "Software Engineer Intern at Siskon Software & Otomation",
+      description:
+        "I started my long-term internship, which I was required to do in the last semester of my senior year, as a Software Engineer at Siskon Software & Automation company.",
+    },
+    {
       date: "Jun 2025 - Jul 2025",
       title: "IT Intern at Kocaer Steel",
       description:

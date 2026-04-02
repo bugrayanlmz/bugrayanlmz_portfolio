@@ -32,6 +32,20 @@ function About() {
         <h2>Experience</h2>
         <div className="job">
           <div className="job-header">
+            <span className="job-title">
+              Software Engineer Intern at Siskon Software & Otomation
+            </span>
+            <span className="job-date">Feb 2026 - Present</span>
+          </div>
+          <p className="job-description">
+            Developed a responsive, modular web platform to showcase company
+            products while designing and building a full-stack license
+            management system to securely generate and oversee software licenses
+            for physical devices.
+          </p>
+        </div>
+        <div className="job">
+          <div className="job-header">
             <span className="job-title">IT Intern at Kocaer Steel</span>
             <span className="job-date">Jun 2025 - Jul 2025</span>
           </div>

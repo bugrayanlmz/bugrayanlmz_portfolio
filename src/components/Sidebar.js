@@ -61,7 +61,7 @@ function Sidebar({ activeSection, onSectionChange, isOpen }) {
   return (
     <aside className={`sidebar ${isOpen ? "active" : ""}`}>
       <div className="profile">
-        <img src="/images/profile.jpg" alt="Profile" />
+        <img src="/images/profile.jpeg" alt="Profile" />
         <div className="profile-text">
           <h1>Buğra Yanılmaz</h1>
           <p>AI Learner</p>
