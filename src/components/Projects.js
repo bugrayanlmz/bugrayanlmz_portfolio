@@ -4,6 +4,15 @@ import ProjectTimelineItem from "./ProjectTimelineItem";
 function Projects() {
   const projects = [
     {
+      title: "autohelper Car Assistant",
+      description:
+        "The Car Assistant is a web-based application that helps vehicle owners find information from their official manuals using AI. The project is built with a React frontend and a Python backend using FastAPI and LangChain. It uses a RAG (Retrieval-Augmented Generation) approach where vehicle manuals are converted into vector embeddings and stored in Pinecone. When a user selects a vehicle and asks a question, the system searches the Pinecone database for relevant parts of the manual and uses the Google Gemini API to generate a clear answer. The frontend is hosted on Netlify, while the backend API is deployed on Render to ensure a reliable and scalable service for users.",
+      image: "/images/autohelper.png",
+      techStack: ["Python", "LangChain", "FastAPI", "Pinecone"],
+      date: "2026",
+      demoUrl: "https://autohelper.netlify.app/",
+    },
+    {
       title: "Invoice Data Extraction",
       description:
         "Inspired by Loadsure's use of Google Cloud Document AI to automate insurance claim processing, this project leverages Google Cloud Document AI and Python to extract structured data from uploaded invoice PDFs. Key fields such as invoice date, amount, tax rate, and supplier details were accurately identified and presented through visual outputs, including confidence score analysis, pie charts, and entity distribution graphs.",
