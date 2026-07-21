@@ -46,7 +46,9 @@ function About() {
         </div>
         <div className="job">
           <div className="job-header">
-            <span className="job-title">IT Intern at Kocaer Steel</span>
+            <span className="job-title">
+              Software Developer Intern at Kocaer Steel
+            </span>
             <span className="job-date">Jun 2025 - Jul 2025</span>
           </div>
           <p className="job-description">
