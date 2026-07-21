@@ -4,14 +4,20 @@ import TimelineItem from "./TimelineItem";
 function Journey() {
   const timelineData = [
     {
-      date: "Feb 2026 - Present",
+      date: "Jun 2026",
+      title: "I graduated from university",
+      description:
+        "Graduated 3rd in my class with a 3.53 GPA in Management Information Systems.",
+    },
+    {
+      date: "Feb 2026 - May 2026",
       title: "Software Engineer Intern at Siskon Software & Otomation",
       description:
         "I started my long-term internship, which I was required to do in the last semester of my senior year, as a Software Engineer at Siskon Software & Automation company.",
     },
     {
       date: "Jun 2025 - Jul 2025",
-      title: "IT Intern at Kocaer Steel",
+      title: "Software Developer at Kocaer Steel",
       description:
         "I successfully completed my IT summer internship, where I observed a professional work environment and gained valuable experiences and friendships. It provided me with important steps for my future career.",
     },

@@ -5,11 +5,11 @@ function About() {
     <div className="main-content active">
       <div className="intro">
         <h1>
-          Hi 👋 I'm Buğra. AI Learner and motorcycle lover based in Izmir,
-          Turkey.
+          Hi 👋 I'm Buğra. Software Developer and motorcycle lover based in
+          Izmir, Turkey.
         </h1>
         <p>
-          I am studying Management Information Systems (EN) at Izmir Bakırçay
+          I graduated Management Information Systems (EN) at Izmir Bakırçay
           University. I am very interested in AI and I am developing myself in
           this field.
         </p>
@@ -35,7 +35,7 @@ function About() {
             <span className="job-title">
               Software Engineer Intern at Siskon Software & Otomation
             </span>
-            <span className="job-date">Feb 2026 - Present</span>
+            <span className="job-date">Feb 2026 - May 2026</span>
           </div>
           <p className="job-description">
             Developed a responsive, modular web platform to showcase company
@@ -72,7 +72,7 @@ function About() {
         <div className="job">
           <div className="job-header">
             <span className="job-title">İzmir Bakırçay University</span>
-            <span className="job-date">2021 - Now</span>
+            <span className="job-date">2021 - 2026</span>
           </div>
           <p className="job-description">Management Information Systems(EN)</p>
         </div>

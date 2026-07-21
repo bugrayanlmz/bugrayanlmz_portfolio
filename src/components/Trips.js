@@ -3,6 +3,64 @@ import React from "react";
 function Trips() {
   const tripsData = [
     {
+      year: "2026",
+      title: "Rome, Italy",
+      description: "A fascinating evening view of the Colosseum.",
+      image: "/images/italy4.jpg",
+      connectedToNext: true,
+    },
+    {
+      year: "2026",
+      title: "Rome, Italy",
+      description:
+        "Of course, I didn't forget to throw in some money for the wish!",
+      image: "/images/italy3.jpg",
+      connectedToNext: true,
+    },
+    {
+      year: "2026",
+      title: "Monterosso, Italy",
+      description: "Magnificent Monterosso beach",
+      image: "/images/italy2.jpg",
+      connectedToNext: true,
+    },
+    {
+      year: "2026",
+      title: "Bologna, Italy",
+      description: "The Two Towers: Garisenda & Asinelli",
+      image: "/images/italy1.jpg",
+      connectedToNext: false,
+    },
+    {
+      year: "2026",
+      title: "Berlin, Germany",
+      description: "Berliner Dom",
+      image: "/images/berlin1.jpg",
+      connectedToNext: true,
+    },
+    {
+      year: "2026",
+      title: "Berlin, Germany",
+      description: "Famous Kreuzberg Square",
+      image: "/images/berlin2.jpg",
+      connectedToNext: false,
+    },
+    {
+      year: "2026",
+      title: "Copenhagen, Denmark",
+      description:
+        "One of the rare photos I managed to take in the Copenhagen cold 😬",
+      image: "/images/denmark.jpg",
+      connectedToNext: false,
+    },
+    {
+      year: "2026",
+      title: "Hamburg, Germany",
+      description: "A beautiful view of Hamburg city.",
+      image: "/images/hamburg.jpg",
+      connectedToNext: false,
+    },
+    {
       year: "2025",
       title: "Mugla, Turkiye",
       description: "Off-road driving in the mountains of Mugla.",

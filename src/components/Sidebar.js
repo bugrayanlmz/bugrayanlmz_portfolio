@@ -64,7 +64,7 @@ function Sidebar({ activeSection, onSectionChange, isOpen }) {
         <img src="/images/profile.jpeg" alt="Profile" />
         <div className="profile-text">
           <h1>Buğra Yanılmaz</h1>
-          <p>AI Learner</p>
+          <p>Software Developer</p>
         </div>
       </div>
 
