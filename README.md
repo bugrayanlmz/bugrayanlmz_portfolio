@@ -1,143 +1,40 @@
-# Portfolio Website - React
+# Buğra Yanılmaz's Portfolio
 
-Modern ve responsive bir portfolyo web sitesi. React ile geliştirilmiştir.
+A personal portfolio website showcasing my software projects, professional experience, education, and travel photography.
 
-## 🚀 Özellikler
+## Features
 
-- ✅ Modern ve temiz tasarım
-- ✅ Tam responsive (mobil uyumlu)
-- ✅ Sidebar navigasyon
-- ✅ Hakkımda sayfası
-- ✅ Journey (Zaman çizelgesi)
-- ✅ Projeler sayfası
-- ✅ 2025 Hedefler sayfası
-- ✅ Blog/Yazı yazma özelliği
-- ✅ Admin paneli (localhost'ta aktif)
-- ✅ localStorage ile veri saklama
-- ✅ Smooth animasyonlar
+- About page with experience, education, and contact links.
+- Project showcase with descriptions, technologies, and live demos.
+- Career and education timeline.
+- Travel photo timeline.
+- Responsive layout with sidebar navigation and mobile menu.
 
-## 📦 Kurulum
+## Tech Stack
 
-Projeyi çalıştırmak için aşağıdaki adımları takip edin:
+React 18, React Router 7, React Icons, and CSS. Development and builds use Create React App (`react-scripts`).
 
-### 1. Bağımlılıkları yükleyin
+## Run Locally
+
+Requires Node.js 20 or later and npm. The repository's `.nvmrc` specifies Node 18, but React Router requires Node 20+.
 
 ```bash
+git clone https://github.com/bugrayanlmz/bugrayanlmz_portfolio.git
+cd bugrayanlmz_portfolio
 npm install
-```
-
-### 2. Geliştirme sunucusunu başlatın
-
-```bash
 npm start
 ```
 
-Uygulama [http://localhost:3000](http://localhost:3000) adresinde açılacaktır.
+Open [localhost:3000](http://localhost:3000).
 
-### 3. Production build oluşturma
+## Production Build
 
 ```bash
 npm run build
 ```
 
-Build klasörüne optimize edilmiş dosyalar oluşturulacaktır.
+Static files are generated in `build/`. When deploying, configure a fallback to `index.html` for client-side routes. A Netlify redirect rule is included in [public/_redirects](public/_redirects).
 
-## 📁 Proje Yapısı
+## Customize
 
-```
-portfolio-react/
-├── public/
-│   ├── images/          # Resim dosyaları
-│   └── index.html       # Ana HTML dosyası
-├── src/
-│   ├── components/      # React componentleri
-│   │   ├── About.js
-│   │   ├── Blog.js
-│   │   ├── BlogPost.js
-│   │   ├── Goals.js
-│   │   ├── GoalItem.js
-│   │   ├── Journey.js
-│   │   ├── Projects.js
-│   │   ├── ProjectCard.js
-│   │   ├── Sidebar.js
-│   │   └── TimelineItem.js
-│   ├── App.js           # Ana uygulama
-│   ├── App.css          # Ana stil dosyası
-│   ├── index.js         # Giriş noktası
-│   └── index.css        # Global stiller
-├── package.json
-└── README.md
-```
-
-## 🎨 Kullanılan Teknolojiler
-
-- **React 18** - UI kütüphanesi
-- **React Icons** - İkon kütüphanesi
-- **CSS3** - Styling ve animasyonlar
-- **localStorage** - Blog yazılarını saklama
-
-## 🔧 Özelleştirme
-
-### Kişisel Bilgileri Güncelleme
-
-`src/components/About.js` dosyasından kişisel bilgilerinizi güncelleyebilirsiniz.
-
-### Sosyal Medya Linkleri
-
-`src/components/Sidebar.js` dosyasındaki `socialLinks` array'ini düzenleyin.
-
-### Projeleri Ekleme
-
-`src/components/Projects.js` dosyasındaki `projects` array'ine yeni projeler ekleyebilirsiniz.
-
-### Hedefleri Değiştirme
-
-`src/components/Goals.js` dosyasındaki `goals` array'ini düzenleyin.
-
-## 📝 Blog Özelliği
-
-Blog özelliği sadece localhost'ta (geliştirme modunda) admin olarak çalışır. Production'da blog yazıları sadece okunabilir moddadır.
-
-Blog yazıları localStorage'da saklanır, bu nedenle:
-
-- Tarayıcı verilerini temizlerseniz yazılar silinir
-- Her tarayıcıda farklı yazılar görünebilir
-
-## 🌐 Deployment
-
-### Netlify ile Deploy
-
-1. GitHub'a push edin
-2. Netlify'da yeni site oluşturun
-3. Repository'nizi bağlayın
-4. Build command: `npm run build`
-5. Publish directory: `build`
-
-### Vercel ile Deploy
-
-```bash
-npm install -g vercel
-vercel
-```
-
-## 📱 Responsive Tasarım
-
-Site tüm cihazlarda düzgün çalışacak şekilde tasarlanmıştır:
-
-- 📱 Mobil cihazlar (< 768px)
-- 💻 Tablet ve laptop
-- 🖥️ Desktop
-
-## 📄 Lisans
-
-Bu proje kişisel kullanım içindir.
-
-## 👤 İletişim
-
-- **Email**: bugrayanlmz@gmail.com
-- **LinkedIn**: [bugrayanlmz](https://www.linkedin.com/in/bugrayanlmz/)
-- **GitHub**: [bugrayanlmz](https://github.com/bugrayanlmz)
-
----
-
-Made with ❤️ by Buğra Yanılmaz
+Update page content in [src/components](src/components), social links in [Sidebar.js](src/components/Sidebar.js), and styles in [src/App.css](src/App.css). Store images in `public/images/`.
